@@ -7,7 +7,7 @@ I needed something that would print JSON Lines for me as each task was being per
 
 This plugin is limited, but will return JSON Lines for most things:
 
-```json
+```js
 // Plays
 {"type": "play", "name": "hello i am a testo play"}
 
