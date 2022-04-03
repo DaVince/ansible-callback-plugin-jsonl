@@ -1,6 +1,8 @@
 JSON Lines Ansible callback plugin
 ==================================
 
+> ⚠️ NOTE: this was written in a day. Apologies for any shortcomings.
+
 This Ansible callback plugin will output play data as [JSON Lines](https://jsonLines.org/).
 
 I needed something that would print JSON Lines for me as each task was being performed, without having to wait for the full JSON output at the end of the play as the JSON callback plugin does it.
