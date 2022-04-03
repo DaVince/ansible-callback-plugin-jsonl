@@ -5,7 +5,6 @@ from __future__ import (absolute_import, division, print_function)
 __metaclass__ = type
 from ansible.plugins.callback import CallbackBase
 from ansible import constants as C
-from ansible.utils.color import hostcolor
 import json
 
 DOCUMENTATION = '''
